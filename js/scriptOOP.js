@@ -118,7 +118,8 @@ const todoList = document.getElementById('todoList');
 // ----------------------- Events  -----------------------//
 
 //Event: First event called to update the list from the local storage
-document.addEventListener('DOMContentLoaded', UI.displayItems);
+document.addEventListener("DOMContentLoaded", UI.displayItems);
+// document.addEventListener('DOMContentLoaded', UI.displayItems);
 
 // Events on the button to add items
 todoBtn.addEventListener('click', (e)=> {
